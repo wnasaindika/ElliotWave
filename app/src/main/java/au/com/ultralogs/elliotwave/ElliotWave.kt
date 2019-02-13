@@ -7,7 +7,7 @@ import dagger.android.DispatchingAndroidInjector
 import dagger.android.HasActivityInjector
 import javax.inject.Inject
 
-//injecting all modules as applications level
+//injecting all modules in applications level
 open class ElliotWave : Application(), HasActivityInjector {
 
     @Inject
